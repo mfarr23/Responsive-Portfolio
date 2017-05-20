@@ -44,6 +44,23 @@ body {
 	float: left;
 }
 
+.wrapperC {
+	height: 525px;
+	width: 55%;
+	background-color: #ffffff;
+	padding: 0 35px 0 35px;
+	clear: both;
+	overflow: auto;
+	margin-bottom: 40px;
+	float: left;
+}
+
+textarea {
+	width: 80em;
+	height: 20em;
+}
+
+
 .w2header {
 	color: #4aaaa5;
 	padding: 30px 0 15px 0;
@@ -259,6 +276,11 @@ body {
 	bottom: -810px;
 }
 
+textarea {
+	height: 269px;
+    width: 402px;
+}
+
 }
 
 @media screen and (max-width: 768px) {
@@ -336,6 +358,15 @@ body {
 	bottom: 25px;
 }
 
+.wrapperC {
+	width: 90%;
+}
+
+textarea {
+	width: 616px;
+    height: 279px;
+}
+
 }
 
 @media screen and (max-width: 640px) {
@@ -409,6 +440,15 @@ body {
 .train {
 	left: 10;
 	bottom: -1280px;
+}
+
+.wrapperC {
+	width: 80%;
+}
+
+textarea {
+	width: 450px;
+    height: 279px;
 }
 
 }
