@@ -1,0 +1,355 @@
+* {
+	font-family: "Arial", 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+body {
+	background-color: #eaeaea;
+	margin: 0 200px 0 200px;
+}
+
+.wrapper {
+	width: 100%;
+	height: 100px;
+	margin: 0 0 40px 0;
+	text-align: center;
+	background-color: #ffffff;
+}
+
+.topleft {
+	background: #4aaaa5;
+	color: #fdfeff;
+	font-size: 33px;
+	font-family: "Times New Roman", Times, serif;
+	float: left;
+	padding: 31.5px;
+	text-decoration-line: none;
+}
+
+.topright {
+	float: right;
+	padding: 39px 40px 39px 40px;
+	font-size: 20px;
+	color: #99a2b3;
+	text-decoration-line: none;
+}
+
+.wrapper2 {
+	height: 525px;
+	width: 55%;
+	background-color: #ffffff;
+	padding: 0 35px 0 35px;
+	clear: both;
+	overflow: auto;
+	margin-bottom: 40px;
+	float: left;
+}
+
+.w2header {
+	color: #4aaaa5;
+	padding: 30px 0 15px 0;
+	font-size: 25px;
+}
+
+hr {
+	color: #dddddd;
+	width: 100%;
+}
+
+.monkey {
+	width: 250px;
+	height: 250px;
+	float: left;
+	padding: 18px 20px 0 0;
+}
+
+.writing {
+	padding: 10px 0 0 0;
+	margin: 0;
+	font-size: 16px;
+	line-height: 30px;
+	color: #99a2b3;
+}
+
+.wrapper3 {
+	height: 180px;
+	width: 22%;
+	background: #ffffff;
+	float: right;
+	margin-bottom: 40px;
+	padding: 0 3% 0 3%;
+}
+
+.Connect {
+	color: #4aaaa5;
+	text-align: center;
+	padding: 20px 0 5px 0;
+	font-size: 20px;
+}
+
+.Github {
+	width: 75px;
+	height: 75px;
+	padding-left: 30px;
+	float: left;
+}
+
+.LinkedIn {
+	width: 75px;
+	height: 75px;
+	padding-right: 30px;
+	float: right;
+}
+
+form {
+	color: #9c9f9f;
+}
+
+.wrapperp {
+	height: 800px;
+	width: 55%;
+	background-color: #ffffff;
+	padding: 0 35px 0 35px;
+	margin-bottom: 40px;
+	float: left;
+}
+
+.portfolio_img {
+	position: relative;
+	width: 50%;
+	float: left;
+	padding: 5px 0 10px 0;
+}
+
+p span {
+	background: #4aaaa5;
+	color: #fdfeff;
+	float: left;
+	font-size: 20px;
+} 
+
+.food {
+	position: absolute;
+	left: 10;
+	bottom: 510px;
+	padding-right: 178px;
+}
+
+.sports {
+	position: absolute;
+	bottom: 510px;
+	left: 36.2%;
+}
+
+.cats {
+	position: absolute;
+	left: 10;
+	bottom: 280px;
+}
+
+.human {
+	position: absolute;
+	left: 36.2%;
+	bottom: 280px;
+}
+
+.train {
+	position: absolute;
+	left: 10;
+	bottom: 51px;
+}
+
+footer {
+	clear: both;
+	width: 100%;
+	background: #666666;
+	color: #90958f;
+	border-top: solid;
+    border-color: #4aaaa5;
+	border-width: 5px;
+	text-align: center;
+	padding: 25px 0 25px 0;
+	font-size: 13px;
+}
+
+/*MEDIA QUERIES*/
+
+@media screen and (max-width: 980px) {
+	
+body {
+	background-color: #eaeaea;
+	margin: 0 125px 0 125px;
+}
+
+.wrapper {
+	height: 92px;
+}
+
+.topleft {
+	width: 29%;
+	font-size: 25px;
+	padding: 33.5px 25px 33.5px 25px;
+}
+
+.topright {
+	width: 10%;
+	font-size: 18px;
+	padding: 37.5px 15px 37.5px 15px;
+}
+
+.wrapper2 {
+	height: 80%;
+}
+
+.monkey {
+	width: 100%;
+	height: 234px;
+}
+
+.wrapper3 {
+	height: 180px;
+}
+
+.Connect {
+	font-size: 22px;
+}
+
+.Github {
+	height: 60px;
+	width: 60px;
+	padding: 0 10px 0 10px;
+}
+
+.LinkedIn {
+	height: 60px;
+	width: 60px;
+	padding: 0 0 0 10px;
+	float: left;
+}
+
+.portfolio_img {
+	width: 100%;
+}
+
+.wrapperp {
+	height: 1700px;
+}
+
+.food {
+	padding: 0;
+	clear: both;
+}
+
+.sports {
+	position: absolute;
+	bottom: 180px;
+	left: 10;
+}
+
+.cats {
+	position: absolute;
+	left: 10;
+	bottom: -150px;
+}
+
+.human {
+	position: absolute;
+	left: 10;
+	bottom: -480px;
+}
+
+.train {
+	position: absolute;
+	left: 10;
+	bottom: -810px;
+}
+
+}
+
+@media screen and (max-width: 768px) {
+	
+body {
+	margin: 0 20px 0 20px;
+}
+
+.topleft {
+	padding: 33.5px 25px 33.5px 25px;
+}
+
+.topright {
+	padding: 37.5px 10px 37.5px 10px;
+}
+
+.wrapper2 {
+	width: 90%;
+}
+
+.monkey {
+	width: 50%;
+}
+
+.wrapper3 {
+	width: 90%;
+	float: left;
+}
+
+.Connect {
+	text-align: left;
+}
+
+.Github {
+	height: 60px;
+	width: 60px;
+}
+
+.LinkedIn {
+	height: 60px;
+	width: 60px;
+}
+
+}
+
+@media screen and (max-width: 640px) {
+	
+.wrapper {
+	position: static;
+}
+
+.wrapper2 {
+	width: 88%;
+}
+
+.topleft {
+	width: 92%;
+}
+
+.topright {
+	background: #ffffff;
+	float: right;
+	margin-bottom: 25px;
+	padding: 5% 11.5% 5% 11.5%;
+}
+
+.w2header {
+	font-size: 30px;
+}
+
+.monkey {
+	height: 400px;
+	width: 525px;
+}
+
+.Github {
+	height: 60px;
+	width: 60px;
+}
+
+.LinkedIn {
+	height: 60px;
+	width: 60px;
+}
+
+
+}
+
+
+
