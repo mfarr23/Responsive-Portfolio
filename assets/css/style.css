@@ -240,25 +240,21 @@ body {
 }
 
 .sports {
-	position: absolute;
 	bottom: 180px;
 	left: 10;
 }
 
 .cats {
-	position: absolute;
 	left: 10;
 	bottom: -150px;
 }
 
 .human {
-	position: absolute;
 	left: 10;
 	bottom: -480px;
 }
 
 .train {
-	position: absolute;
 	left: 10;
 	bottom: -810px;
 }
@@ -306,6 +302,40 @@ body {
 	width: 60px;
 }
 
+.wrapperp {
+	width: 85%;
+	height: 850px;
+}
+
+.portfolio_img {
+	width: 50%;
+}
+
+.food {
+	left: 10;
+	bottom: 510px;
+}
+
+.sports {
+	bottom: 510px;
+	left: 47.5%;
+}
+
+.cats {
+	left: 10;
+	bottom: 265px;
+}
+
+.human {
+	left: 47.5%;
+	bottom: 265px;
+}
+
+.train {
+	left: 10;
+	bottom: 25px;
+}
+
 }
 
 @media screen and (max-width: 640px) {
@@ -348,6 +378,38 @@ body {
 	width: 60px;
 }
 
+.wrapperp {
+	height: 2100px;
+}
+
+.portfolio_img {
+	width: 100%;
+}
+
+.food {
+	left: 10;
+	bottom: 320px;
+}
+
+.sports {
+	bottom: -80px;
+	left: 10;
+}
+
+.cats {
+	left: 10;
+	bottom: -480px;
+}
+
+.human {
+	left: 10;
+	bottom: -880px;
+}
+
+.train {
+	left: 10;
+	bottom: -1280px;
+}
 
 }
 
